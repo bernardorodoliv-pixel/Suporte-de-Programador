@@ -5,7 +5,6 @@ async function gerarComando() {
 
     let textoUsuario = document.querySelector(".caixa-texto").value
     let blocoCodigo = document.querySelector(".bloco-codigo")
-    let resultadoCodigo = document.querySelector(".resultado-codigo")
 
     let resposta = await fetch(endereco, {
         method: "POST",
